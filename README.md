@@ -3,10 +3,10 @@
 </p>
 <h1 align="center">V  I  T  A  L  I  S</h1>
 <p align="center">
-  <img src="https://img.shields.io/badge/HTML-blue">
-  <img src="https://img.shields.io/badge/hecho%20con-CSS-royalblue">
-  <img src="https://img.shields.io/badge/-Página web-turquoise">
-  <img src="https://img.shields.io/badge/estado-en proceso-teal">
+  <img src="https://img.shields.io/badge/Andas tu-blue">
+  <img src="https://img.shields.io/badge/es viernes%20de-santo-royalblue">
+  <img src="https://img.shields.io/badge/-no se come-turquoise">
+  <img src="https://img.shields.io/badge/estado-Mmm pos ya que-teal">
   <p align="center">
   <img src="https://img.shields.io/badge/ODS-3%20Salud%20y%20bienestar-blue">
 </p>
