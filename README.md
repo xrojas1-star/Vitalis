@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="assets/vitalis logo.png" width="300">
+</p>
 <h1 align="center">V  I  T  A  L  I  S</h1>
 <p>
 *Vitalis* es un proyecto que consiste en el desarrollo de una página web educativa orientada a la programación de la salud y el bienestar, basada en el Objetivo de Desarrollo Sostenible 3 (ODS 3).
