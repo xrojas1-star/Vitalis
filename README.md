@@ -5,7 +5,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/HTML-blue">
   <img src="https://img.shields.io/badge/hecho%20con-CSS-royalblue">
-  <img src="https://img.shields.io/badge/-Página web-green">
+  <img src="https://img.shields.io/badge/-Página web-turquoise">
   <img src="https://img.shields.io/badge/estado-en proceso-brightgreen">
   <p align="center">
   <img src="https://img.shields.io/badge/ODS-3%20Acci%C3%B3n%20por%20el%20clima-green">
