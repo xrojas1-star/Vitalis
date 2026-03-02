@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/portada" width="300">
+  <img src="assets/portada.png" width="300">
 </p>
 <h1 align="center">V  I  T  A  L  I  S</h1>
 <p>
