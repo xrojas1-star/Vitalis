@@ -5,7 +5,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/HTML-blue">
   <img src="https://img.shields.io/badge/hecho%20con-CSS-orange">
-  <img src="https://img.shields.io/badge/hecho%20con-Salud y bienestar-green">
+  <img src="https://img.shields.io/badge/-Salud y bienestar-green">
   <img src="https://img.shields.io/badge/estado-en proceso-brightgreen">
 </p>
 <p>
