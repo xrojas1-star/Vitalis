@@ -29,6 +29,6 @@ La pltaforma busca brindar información clara, confiable y accesible sobre hábi
 <ill>HTML</ill>
 <ill>CSS</ill>
 <ill>JavaScript</ill>
-<ill>Base de datos</ill>
+<ill>SQL</ill>
 </ul>
 
