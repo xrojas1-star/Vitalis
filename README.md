@@ -3,7 +3,8 @@
 </p>
 <h1 align="center">V  I  T  A  L  I  S</h1>
 <p align="center">
-  <img src="https://img.shields.io/badge/Andas tu-blue">
+  ![HTML](https://img.shields.io/badge/HECHO_CON-HTML-orange)
+![CSS](https://img.shields.io/badge/ESTILO-CSS-blue)
   <img src="https://img.shields.io/badge/es viernes%20de-santo-royalblue">
   <img src="https://img.shields.io/badge/-si cierto-turquoise">
   <img src="https://img.shields.io/badge/- no se come-turquoise">
