@@ -3,13 +3,11 @@
 </p>
 <h1 align="center">V  I  T  A  L  I  S</h1>
 <p align="center">
-  <img src="https://img.shields.io/badge/Andas tu-blue">
-  <img src="https://img.shields.io/badge/es viernes%20de-santo-royalblue">
-  <img src="https://img.shields.io/badge/-si cierto-turquoise">
-  <img src="https://img.shields.io/badge/- no se come-turquoise">
-  <img src="https://img.shields.io/badge/Mmm- pos ya que-teal"> 
+  <img src="https://img.shields.io/badge/HECHO_CON-HTML-green">
+  <img src="https://img.shields.io/badge/ESTILO-CSS-tea">
+  <img src="https://img.shields.io/badge/ESTADO- EN PROCESO-green"> 
   <p align="center">
-  <img src="https://img.shields.io/badge/ODS-3%20Salud%20y%20bienestar-blue">
+  <img src="https://img.shields.io/badge/ODS-3%20Salud%20y%20bienestar-light green">
 </p>
 
 **Vitalis** es un proyecto que consiste en el desarrollo de una página web educativa orientada a la programación de la salud y el bienestar, basada en el Objetivo de Desarrollo Sostenible 3 (ODS 3).
