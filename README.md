@@ -31,12 +31,10 @@ La pltaforma busca brindar información clara, confiable y accesible sobre hábi
 </ul>
 
 # Interfaces
-
+<p align="center">
+Vista previa de las interfaces principales del sistema Vitalis.
+</p>
 <p align="center">
   <img src="imagenes/blog.png" width="300">
   <img src="imagenes/login.png" width="300">
-</p>
-
-<p align="center">
-Vista previa de las interfaces principales del sistema Vitalis.
 </p>
