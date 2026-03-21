@@ -35,7 +35,14 @@ La pltaforma busca brindar información clara, confiable y accesible sobre hábi
 Vista previa de las interfaces principales del sistema Vitalis.
 </p>
 <p align="center">
-  <img src="imagenes/blog.png" width="300">
-  <img src="imagenes/login.png" width="300">
-  <img src="imagenes/inicio.png" width="300">
+  <img src="imagenes/inicio.png" alt="inicio" width="400" style="margin: 10px;">
+  <img src="imagenes/login.png" alt="login" width="360" style="margin: 10px;">
+  <img src="imagenes/blog.png" alt="blog" width="400" style="margin: 10px;">
 </p>
+
+## 👤Colaboradores
+
+* Amador Benitez Juan
+* Escobar Núñez Cristian Alexander
+* Hernández Campos Itzel Aranzazu
+* Virgen Ambriz Lucia Lorena
