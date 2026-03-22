@@ -52,6 +52,7 @@ Vista previa de las interfaces principales del sistema Vitalis.
   <img src="imagenes/blog.png" alt="blog" width="400" style="margin: 10px;">
   <img src="imagenes/registrarse.png" alt="registro" width= "400" style="margin: 10px;">
   <img src="imagenes/caphome.png" alt="home" width= "400" style="margin: 10px;">
+  <img src="imagenes/caphome2.png" alt="home" width="400" style="margin: 10px;">
 </p>
 
 ## 👤Colaboradores
