@@ -1,0 +1,5 @@
+Aquí son los mismos mockups pero solo vamos a cambiar de idioma, en el mismo código solo le cambiamos en inglés a lo que la página venga en español. EL DISEÑO ES EL MISMO.
+1.- Subir a la carpeta "Código en inglés de las interfaces" en puro código en .txt
+por ejemplo: si el código de la interfaz es en lenguaje css guardarlo como "blogcss.txt" o si es en HTML, guardarlo como "bloghtml.txt"
+2.- Copiar el código de vscode a blog de notas y subirlo a la carpeta de código en ingles, de favor. La carpeta q solo tiene las imágenes es solo para guiarse de lo que estamos haciendo de cada interfaz, cualquier duda eme lo comentan porfiss. Tenemos q trabajar todos en equipo.
+Primero investiga como se hace y luego pregunta :)
