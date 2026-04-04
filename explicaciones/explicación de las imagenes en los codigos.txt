@@ -1,0 +1,1 @@
+Estas son todas las imágenes que he estado usando en todos los códigos de las interfaces, así como tienen los nombres de las imágenes, así es como están en el código, con la misma dirección pero la carpeta se llama imagenes
