@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vitalis - Notificaciones</title>
+    <title>Vitalis - Notifications</title>
     <link rel="stylesheet" href="notificacionesinglés.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
@@ -16,7 +16,7 @@
         
         <nav class="nav-menu">
             <ul>
-                <li><a href="#">🏠 Login</a></li>
+                <li><a href="#">🏠 Home</a></li>
                 <li><a href="#">🔍 Tips</a></li>
                 <li><a href="#">💚 Health</a></li>
                 <li><a href="#">❤️ Wellbeing</a></li>
@@ -27,10 +27,10 @@
 
         <div class="user-footer">
             <div class="user-avatar">
-                <img src="imagenes-inglés/sin foto.png" alt="Usuario">
+                <img src="imagenes-inglés/sin foto.png" alt="User">
             </div>
             <div class="user-details">
-                <p class="name">Maria López</p>
+                <p class="name">Maria Lopez</p>
                 <p class="email">maria.lopez@gmail.com</p>
             </div>
             <i class="fas fa-sign-out-alt logout-icon"></i>
@@ -41,18 +41,12 @@
         <header class="header">
             <div class="search-container">
                 <i class="fas fa-search"></i>
-                <input type="text" placeholder="Buscar...">
-            </div>
-            <div class="header-icons">
-                <i class="fas fa-bell"></i>
-                <div class="top-avatar">
-                    <img src="imagenes-inglés/sin foto.png" alt="Perfil">
-                </div>
+                <input type="text" placeholder="Search...">
             </div>
         </header>
 
         <section class="main-panel">
-            <h2 class="section-title">Notifications Panel: Maria López</h2>
+            <h2 class="section-title">Notifications Panel: Maria Lopez</h2>
 
             <div class="priority-alerts">
                 <p class="subtitle">Priority Health Alerts</p>
@@ -79,21 +73,21 @@
                             <th>Notification Type</th>
                             <th>Details</th>
                             <th>Date/Time</th>
-                            <th>State</th>
+                            <th>Status</th>
                             <th>Actions</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td>⏰ Daily Reminder</td>
-                            <td>Yoga Routine Morning: You're about to start!</td>
-                            <td>15 minutes ago</td>
+                            <td>Morning Yoga Routine: About to start!</td>
+                            <td>15 min ago</td>
                             <td><span class="status unread">Unread</span></td>
                             <td><button class="action-btn">...</button></td>
                         </tr>
                         <tr>
                             <td>💚 Health</td>
-                            <td>Corporal Wellbeing Evaluation: New results</td>
+                            <td>Body Wellbeing Assessment: New results</td>
                             <td>2 hours ago</td>
                             <td><span class="status urgent">Unread (Urgent)</span></td>
                             <td><button class="action-btn">...</button></td>
@@ -108,7 +102,7 @@
                     </tbody>
                 </table>
                 <div class="pagination">
-                    <i class="fas fa-chevron-left"></i> 24 Apr 2024 <i class="fas fa-chevron-right"></i>
+                    <i class="fas fa-chevron-left"></i> Apr 24, 2024 <i class="fas fa-chevron-right"></i>
                 </div>
             </div>
         </section>
