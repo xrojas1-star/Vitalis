@@ -12,7 +12,6 @@ body {
     height: 100vh;
 }
 
-/* SIDEBAR */
 .sidebar {
     width: 280px;
     background-color: white;
@@ -36,14 +35,12 @@ body {
     transition: all 0.25s ease;
 }
 
-/* HOVER AZUL SOLICITADO */
 .menu-item:hover, .active .menu-item {
     background-color: var(--menu-hover-bg);
     color: var(--vitalis-green);
     font-weight: 600;
 }
 
-/* --- ESTILO DEL PERFIL INFERIOR (NUEVO) --- */
 .user-profile-footer {
     margin-top: auto;
     padding: 20px;
@@ -97,7 +94,6 @@ body {
 
 .logout-btn:hover { transform: translateX(3px); }
 
-/* MAIN CONTENT Y TARJETAS */
 .main-content { flex-grow: 1; padding: 60px 50px; overflow-y: auto; }
 .section-title { font-size: 32px; margin-bottom: 8px; color: #222; }
 .panel-subtitle { color: #777; margin-bottom: 45px; }
@@ -118,10 +114,10 @@ body {
 }
 
 .card-header { height: 130px; display: flex; align-items: center; justify-content: center; background-size: cover; background-position: center; }
-/* Pega aquí tus URLs de imágenes de fondo para las tarjetas */
+
 .metrics-header { background-image: url("imagenes/metricas\ de\ salud.png"); background-color: #fce4ec; }
 .appointments-header { background-image: url("imagenes/historial.png"); background-color: #e3f2fd; }
-.medication-header { background-image: url("imagenes/medicacion.png"); background-color: #fff3e0; }
+.medication-header { background-image: url("imagenes/recordatorios.png"); background-color: #fff3e0; }
 
 .card-header h3 { background: rgba(255,255,255,0.95); padding: 10px 20px; border-radius: 12px; font-size: 14px; color: #333; }
 .card-content { padding: 25px; }

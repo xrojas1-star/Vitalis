@@ -117,7 +117,7 @@ body {
 
 .metrics-header { background-image: url("imagenes-inglés/metricas\ de\ salud.png"); background-color: #fce4ec; }
 .appointments-header { background-image: url("imagenes-inglés/historial.png"); background-color: #e3f2fd; }
-.medication-header { background-image: url("imagenes-inglés/medicacion.png"); background-color: #fff3e0; }
+.medication-header { background-image: url("imagenes-inglés/recordatorios.png"); background-color: #fff3e0; }
 
 .card-header h3 { background: rgba(255,255,255,0.95); padding: 10px 20px; border-radius: 12px; font-size: 14px; color: #333; }
 .card-content { padding: 25px; }
