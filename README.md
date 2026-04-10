@@ -32,7 +32,7 @@ Evaluar el impacto del uso de una página web educativa sobre la ODS 3 (Salud y 
 Vitalis nace para centralizar la gestión de salud preventiva, permitiendo a los usuarios monitorear su bienestar físico y acceder a información científica actualizada en un solo lugar
 </p>
 
-# Característica de usuario
+# ​👩🏻‍💻 ​Característica de usuario
 <p>
 
 - Registro Seguro: Formulario con validación visual y máscara de contraseña.
@@ -42,7 +42,7 @@ Vitalis nace para centralizar la gestión de salud preventiva, permitiendo a los
 - Sección de Noticias: Panel informativo sobre tendencias de salud y bienestar.
 </p>
 
-# Segmentos y clientes
+# ​🙋🏻‍♀️​ Segmentos y clientes
 **Vitalis** Esta plataforma está dirigida a estudiantes y jóvenes, comunidades educativas, organizaciones de salud y empresas.
 </p>
 # Tecnologías utilizadas
