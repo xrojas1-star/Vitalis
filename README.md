@@ -27,7 +27,7 @@ Evaluar el impacto del uso de una página web educativa sobre la ODS 3 (Salud y 
 **Analizar** el nivel de conocimientos de los estudiantes sobre salud y bienestar antes y después del uso de la página web, mediante una metodología de análisis de datos.
 
 
-# Propuesta De Valor
+# ✅ Propuesta De Valor
 <p>
 Vitalis nace para centralizar la gestión de salud preventiva, permitiendo a los usuarios monitorear su bienestar físico y acceder a información científica actualizada en un solo lugar
 </p>
