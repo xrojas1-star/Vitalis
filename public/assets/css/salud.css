@@ -1,0 +1,107 @@
+/* salud.css — solo contenido de la página Salud */
+
+.section-title {
+    font-size: 26px;
+    margin-bottom: 6px;
+    color: #222;
+}
+
+.panel-subtitle {
+    color: #777;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.info-card {
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.info-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.card-header {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e0f2f1;
+}
+
+.card-header h3 {
+    background: rgba(255,255,255,0.92);
+    padding: 8px 16px;
+    border-radius: 10px;
+    font-size: 13px;
+    color: #333;
+    text-align: center;
+}
+
+.metrics-header     { background-color: #fce4ec; }
+.appointments-header { background-color: #e3f2fd; }
+.medication-header  { background-color: #fff3e0; }
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content ul {
+    list-style: none;
+    margin-bottom: 16px;
+}
+
+.card-content li {
+    margin-bottom: 8px;
+    font-size: 13px;
+    color: #555;
+}
+
+.btn-primary {
+    width: 100%;
+    background: #00796b;
+    color: white;
+    border: none;
+    padding: 11px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 13px;
+    transition: opacity 0.2s;
+}
+
+.btn-primary:hover { opacity: 0.88; }
+
+.bottom-card {
+    background: white;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    max-width: 420px;
+}
+
+.bottom-card h3 {
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+
+.community-input input {
+    width: 100%;
+    padding: 11px 16px;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    background: #fcfcfc;
+    font-size: 13px;
+    outline: none;
+}

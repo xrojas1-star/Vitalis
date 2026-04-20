@@ -7,6 +7,12 @@ if (!isset($_SESSION['user_id'])) {
     header("Location: login.php");
     exit();
 }
+
+// 3. Evita que el navegador guarde esta página en caché
+//    Así el botón "atrás" no puede regresar aquí sin verificar sesión
+header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
+header("Cache-Control: post-check=0, pre-check=0", false);
+header("Pragma: no-cache");
 ?>
 <!DOCTYPE html>
 <html lang="es">

@@ -1,4 +1,5 @@
 <?php
+session_start();
 // Incluimos nuestro archivo de conexión a la base de datos
 require_once '../config/Database.php';
 
@@ -40,9 +41,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // 7. Ejecutamos la consulta
         if ($stmt->execute()) {
+            // Guardamos la sesión para que home.php no rechace al usuario
+            $_SESSION['user_id']   = $db->lastInsertId();
+            $_SESSION['user_name'] = $nombre;
+            $_SESSION['user_role'] = 'usuario';
+
             echo "<script>
                     alert('¡Registro exitoso! Bienvenido a Vitalis.');
-                    window.location.href = '../public/home.php'; 
+                    window.location.href = '../public/home.php';
                   </script>";
         } else {
             echo "<script>
