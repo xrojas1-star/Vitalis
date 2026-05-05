@@ -1,5 +1,4 @@
-
-/* 1. VARIABLES DE COLOR (MODO CLARO POR DEFECTO) */
+/* 1. VARIABLES */
 :root {
   --brand: #14b5d1;
   --brand-dark: #0d9ab3;
@@ -7,18 +6,9 @@
   --text-title: #5a5e64;
   --text-subtitle: #6a6a6a;
   --btn-text: #ffffff;
-  --toggle-bg: #ebebeb;
 }
 
-/* 2. VARIABLES CUANDO EL CHECKBOX ESTÁ MARCADO (MODO OSCURO) */
-body:has(input:checked) {
-  --bg-page: #121212;       /* Fondo casi negro */
-  --text-title: #ffffff;    /* Títulos blancos */
-  --text-subtitle: #b0b0b0; /* Subtítulos gris claro */
-  --toggle-bg: #333333;     /* Fondo del switch oscuro */
-}
-
-/* Estilos Generales */
+/* 2. ESTILOS GENERALES */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -26,13 +16,13 @@ body:has(input:checked) {
 }
 
 body {
-  height: 100%;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: var(--bg-page); /* Aplicación de variable */
-  transition: background-color 0.4s ease, color 0.4s ease;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #f5f7fa 0%, #ffffff 100%);
+  min-height: 100vh;
+  overflow-x: hidden;
 }
 
-/* Layout Principal */
+/* 3. LAYOUT PRINCIPAL */
 .login {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -40,79 +30,108 @@ body {
 }
 
 .login__left {
-  background: var(--bg-page);
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 40px;
-  transition: background 0.4s ease;
+  padding: 60px;
+  background-color: var(--bg-page);
+}
+.login__left::before{
+  content: "";
+  position: absolute;
+  width: 220px;
+  height: 200px;
+  background: rgba(20, 181, 209, 0.08);
+  border-radius: 50%;
+  top: -50px;
+  left: -40px;
 }
 
 .panel {
-  padding-top: 130px; 
-  position: relative;
-  width: min(500px, 100%);
+ position: relative;
 }
 
-
-/* Logo y Texto */
+/* 4. LOGO */
 .brand {
-  position: absolute;
-  top: 0; left: 5;
-  width: 100%;
-  z-index: 10;
+  animation: fadeUp 0.8s ease forwards;
+  margin-bottom: 20px;
+
 }
 
 .brand__logo {
-  height: 220px;
-  width: auto;
-  display: block;
-  object-fit: contain;
-  /* Si tu logo es oscuro, esto lo hace blanco en modo oscuro */
-  transition: filter 0.4s;
+     width: auto;
+    height: 90px;
+    margin-left: -60px;
+    margin-bottom: 20px;
+    position: relative;
+    top: -50px;
+    left: 30px;
+}
+/* 5. TÍTULO CON EFECTO NEÓN */
+.neon-tittle {
+    animation: fadeLeft 1s ease forwards;
+    font-size: 70px; 
+    line-height: 1.1;
+    margin-bottom: 25px;
+    transition: cubic-bezier(0.445, 0.05, 0.55, 0.95);
 }
 
-body:has(input:checked) .brand__logo {
-  filter: brightness(0) invert(1); 
+.neon-tittle span {
+  color: var(--brand);
+  transition: all 0.4s ease;
 }
 
-h1 {
-  font-size: 65px;
-  line-height: 1;
-  font-weight: 800;
-  color: var(--text-title);
-  margin-bottom: 20px;
-  letter-spacing: -2px;
-  transition: color 0.4s;
+.neon-tittle:hover {
+  color: #2d3436;
+  text-shadow: 
+    0 0 10px rgba(20, 181, 209, 0.3),
+    0 0 20px rgba(20, 181, 209, 0.2);
+  transform: translateX(5px);
+}
+
+/*Aqui hay 3 tipos de sombra*/
+.neon-title:hover span {
+  color: var(--brand);
+  text-shadow: 
+    0 0 10px var(--brand),
+    0 0 25px var(--brand),
+    0 0 45px rgba(20, 181, 209, 0.5);
 }
 
 .subtitle {
-  font-size: 18px;
-  color: var(--text-subtitle);
-  line-height: 1.5;
-  margin-bottom: 40px;
-  transition: color 0.4s;
+    animation: fadeLeft 1s ease forwards;
+    font-size: 22px;
+    color: var(--text-subtitle);
+    margin-bottom: 50px;
+    line-height: 1.4;
 }
 
-/* Botones */
+/* 6. BOTONES NEÓN */
 .actions {
+  animation: fadeUp 1s ease forwards;
+  animation-delay: 0.6s;
+  opacity: 0;
   display: flex;
-  gap: 15px;
-  margin-top: 20px;
+  gap: 20px;
 }
 
 .btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  flex: 1;
-  height: 55px;
-  border-radius: 999px;
+padding: 15px 40px; /* Relleno interno real */
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    min-width: 160px;
+    transition: 0.3s;
+}
+
+.btn-neon {
   background: var(--brand);
   color: var(--btn-text);
-  text-decoration: none;
-  font-weight: bold;
-  transition: 0.3s;
+  border: none;
 }
 
 .btn--secondary {
@@ -121,78 +140,60 @@ h1 {
   color: var(--brand);
 }
 
-.btn:hover {
-  background: var(--brand-dark);
-  color: white;
+/* Hover de Botones */
+.btn-neon:hover {
+  transform: translateY(-3px);
+  background: var(--brand);
+  color: #fff;
+  box-shadow: 
+    0 0 15px var(--brand),
+    0 0 35px rgba(20, 181, 209, 0.4);
+}
+.login__right{
+  animation: zoomFade 1.4s ease forwards;
 }
 
-/* Parte Derecha (Imagen) */
-.login__right {
-  background-image: url("imagenes/fondo-inicio.png");
-  background-size: cover;
-  background-position: center;
-  width: 100%px;
-  border-radius: 40px;
-  height: 800px;
+.login__right.parallax-bg{
+background-image: url(img/fondodelapagina.png);
+background-image: absolute;
+background-repeat:no-repeat;
+background-size: cover;
+
+height: 100%;
+width: 100%;
+box-shadow: inset 100px 0 150px rgba(0, 0, 0,0 , 0.5);
+
+}
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
-/* --- ESTILO DEL SWITCH COMPACTO --- */
-#darkmode-toggle {
-  display: none;
+@keyframes fadeLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
-label {
-  width: 70px;         /* Antes 100px - Más corto */
-  height: 32px;        /* Antes 46px - Más delgado */
-  display: block;
-  position: relative;
-  background: var(--toggle-bg);
-  border-radius: 50px;
-  cursor: pointer;
-  transition: 0.3s;
-  box-shadow: inset 0px 3px 8px rgba(0,0,0,0.15);
+@keyframes zoomFade {
+    from {
+        opacity: 0;
+        transform: scale(1.08);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
 }
 
-label:after {
-  content: "";
-  /* Reducimos el tamaño de la bolita */
-  height: 24px;        
-  width: 24px;         
-  position: absolute;
-  
-  /* Centrado vertical: (32px alto label - 24px alto bola) / 2 = 4px */
-  top: 4px;            
-  left: 4px;
-  
-  border-radius: 50%;
-  transition: 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.28);
-  background-color: #ffcc89;
-  
-  /* Icono Sol */
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='orange'%3E%3Cpath d='M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zM2 13h2c.55 0 1-.45 1-1s-.45-1-1-1H2c-.55 0-1 .45-1 1s.45 1 1 1zm18 0h2c.55 0 1-.45 1-1s-.45-1-1-1h-2c-.55 0-1 .45-1 1s.45 1 1 1zM11 2v2c0 .55.45 1 1 1s1-.45 1-1V2c0-.55-.45-1-1-1s-1 .45-1 1zm0 18v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1s-1 .45-1 1z'/%3E%3C/svg%3E");
-  background-size: 70%;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-#darkmode-toggle:checked + label::after {
-  /* Cálculo para el final: 70px ancho - 24px bola - 4px margen = 42px */
-  left: 42px; 
-  background-color: #777;
-  
-  /* Icono Luna */
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='white'%3E%3Cpath d='M12.1 22c-4.8 0-9-3.7-9.1-8.7-.2-5.4 4.1-10 9.5-10.1 1.1 0 2.1.2 3.1.5.5.2.7.8.5 1.3-.2.4-.6.7-1.1.7-3.3.1-6 2.8-6 6.1 0 3.3 2.7 6 6 6 .9 0 1.7-.2 2.5-.6.5-.2 1.1 0 1.4.5.2.5.1 1.1-.4 1.4-1.9 1.2-4.1 1.9-6.4 1.9z'/%3E%3C/svg%3E");
-}
-
-/* Reducimos también el efecto de estiramiento */
-label:active:after {
-  width: 32px;
-}
-.darkmode-wrapper{
-  position:absolute;
-    top: 600px;
-    right: 1500px;
-    left: 10px;
-    nav-up: 50px;
-    z-index:200;
-}
